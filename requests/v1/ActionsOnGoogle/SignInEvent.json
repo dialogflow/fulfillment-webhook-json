@@ -1,0 +1,78 @@
+{
+  "originalRequest": {
+    "source": "google",
+    "version": "2",
+    "data": {
+      "isInSandbox": true,
+      "surface": {
+        "capabilities": []
+      },
+      "inputs": [
+        {
+          "rawInputs": [
+            {}
+          ],
+          "arguments": [
+          	{
+          	  "name": "SIGN_IN",
+          	  "extension": {
+          	    "@type": "type.googleapis.com/google.actions.v2.SignInValue",
+          	    "status": "OK"
+          	  }
+          	}
+          ],
+          "intent": "actions.intent.SIGN_IN"
+        }
+      ],
+      "user": {
+        "lastSeen": "2018-02-26T00:12:10Z",
+        "locale": "en-US",
+        "userId": "ABwppHEvwoXs18xBNzumk18p5h02bhRDp_riW0kTZKYdxB6-LfP3BJRjgPjHf1xqy1lxqS2uL8Z36gT6JLXSrSCZ",
+        "accessToken": "Your OAuth service access token"
+      },
+      "conversation": {
+        "conversationId": "1519604010620",
+        "type": "ACTIVE",
+        "conversationToken": "[]"
+      },
+      "availableSurfaces": []
+    }
+  },
+  "id": "82e41ef8-a347-47ab-a9b5-07d78dc340a8",
+  "timestamp": "2018-02-26T00:32:27.282Z",
+  "lang": "en-us",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "actions_intent_SIGN_IN",
+    "speech": "",
+    "action": "Dialogflow action name of matched intent",
+    "actionIncomplete": false,
+    "parameters": {},
+    "contexts": [
+      {
+        "name": "actions_intent_sign_in",
+        "parameters": {
+          "SIGN_IN": {
+            "@type": "type.googleapis.com/google.actions.v2.SignInValue",
+            "status": "OK"
+          }
+        },
+        "lifespan": 0
+      }
+    ],
+    "metadata": {
+      "intentId": "241ecb49-b7d8-424f-a624-d5a878bfd780",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "nluResponseTime": 0,
+      "intentName": "Dialogflow intent name of matched intent"
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success",
+    "webhookTimedOut": false
+  },
+  "sessionId": "1519604010620"
+}

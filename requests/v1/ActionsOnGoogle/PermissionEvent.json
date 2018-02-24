@@ -1,0 +1,89 @@
+{
+  "originalRequest": {
+    "source": "google",
+    "version": "2",
+    "data": {
+      "isInSandbox": true,
+      "surface": {
+        "capabilities": []
+      },
+      "inputs": [
+        {
+          "rawInputs": [
+            {}
+          ],
+          "arguments": [
+            {
+              "textValue": "true",
+              "name": "PERMISSION",
+              "boolValue": true
+            }
+          ],
+          "intent": "actions.intent.PERMISSION"
+        }
+      ],
+      "user": {
+        "lastSeen": "2018-02-25T23:23:23Z",
+        "permissions": [
+          "NAME",
+          "DEVICE_PRECISE_LOCATION"
+        ],
+        "profile": {
+          "displayName": "Matt Carroll",
+          "givenName": "Matt",
+          "familyName": "Carroll"
+        },
+        "locale": "en-US",
+        "userId": "ABwppHEvwoXs18xBNzwmk18p5h02bhRDp_riW0kTZKYdxB5-LfP3BJRjgPjHf1xqy1lxwS2uL8Z36gT6JLXSrSCZ"
+      },
+      "device": {
+        "location": {
+          "coordinates": {
+            "latitude": 37.4219806,
+            "longitude": -122.0841979
+          }
+        }
+      },
+      "conversation": {},
+      "availableSurfaces": []
+    }
+  },
+  "id": "2998b42b-132c-4672-89cb-a9c22a5ba886",
+  "timestamp": "2018-02-25T23:38:51.858Z",
+  "lang": "en-us",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "actions_intent_PERMISSION",
+    "speech": "",
+    "action": "Dialogflow action name of matched intent",
+    "actionIncomplete": false,
+    "parameters": {},
+    "contexts": [
+      {
+        "name": "actions_intent_permission",
+        "parameters": {
+          "PERMISSION": true
+        },
+        "lifespan": 0
+      }
+    ],
+    "metadata": {
+      "intentId": "1777d616-a5f7-4838-a9a9-870f2956bd14",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "nluResponseTime": 3,
+      "intentName": "Dialogflow intent name of matched intent"
+    },
+    "fulfillment": {
+      "speech": "",
+      "messages": []
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success",
+    "webhookTimedOut": false
+  },
+  "sessionId": "1519601028001"
+}

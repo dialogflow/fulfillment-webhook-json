@@ -1,0 +1,11 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "systemIntent": {
+        "intent": "actions.intent.SIGN_IN",
+        "data": {}
+      }
+    }
+  }
+}

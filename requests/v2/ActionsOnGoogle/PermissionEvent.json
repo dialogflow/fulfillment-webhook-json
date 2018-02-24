@@ -1,0 +1,72 @@
+{
+  "responseId": "cb6f5ec2-c26e-4349-b561-a9ddd6a0e495",
+  "queryResult": {
+    "queryText": "actions_intent_PERMISSION",
+    "action": "Dialogflow action name of matched intent",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "outputContexts": [
+      {
+        "name": "projects/${DIALOGFLOW_PROJECT_ID}/agent/sessions/1519609128253/contexts/actions_intent_permission",
+        "parameters": {
+          "PERMISSION": true
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/${DIALOGFLOW_PROJECT_ID}/agent/intents/1777d616-a5f7-4838-a9a9-870f2956bd14",
+      "displayName": "Dialogflow action name of matched intent"
+    },
+    "intentDetectionConfidence": 1,
+    "diagnosticInfo": {},
+    "languageCode": "en-us"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "isInSandbox": true,
+      "surface": {},
+      "inputs": [
+        {
+          "rawInputs": [
+            {}
+          ],
+          "arguments": [
+            {
+              "textValue": "true",
+              "name": "PERMISSION",
+              "boolValue": true
+            }
+          ],
+          "intent": "actions.intent.PERMISSION"
+        }
+      ],
+      "user": {
+        "lastSeen": "2018-02-26T01:38:19Z",
+        "permissions": [
+          "NAME",
+          "DEVICE_PRECISE_LOCATION"
+        ],
+        "profile": {
+          "displayName": "Matt Carroll",
+          "givenName": "Matt",
+          "familyName": "Carroll"
+        },
+        "locale": "en-US",
+        "userId": "ABwppHEvwoXs18xBNzumk18p5h02bhRDp_riW0kTZKYdxB6-LfP3BJRjgPjHf1xqy1lxqS2uL8Z36gT6JLXSrSCZ"
+      },
+      "device": {
+        "location": {
+          "coordinates": {
+            "latitude": 37.4219806,
+            "longitude": -122.0841979
+          }
+        }
+      },
+      "conversation": {},
+      "availableSurfaces": []
+    }
+  },
+  "session": "projects/${DIALOGFLOW_PROJECT_ID}/agent/sessions/1519609128253"
+}

@@ -1,0 +1,70 @@
+{
+  "originalRequest": {
+    "source": "google",
+    "version": "2",
+    "data": {
+      "isInSandbox": true,
+      "surface": {
+        "capabilities": []
+      },
+      "inputs": [
+        {
+          "rawInputs": [
+            {
+              "query": "title of user-selected option",
+              "inputType": "VOICE"
+            }
+          ],
+          "arguments": [
+            {
+              "textValue": "key of user-selected option",
+              "name": "OPTION"
+            }
+          ],
+          "intent": "actions.intent.OPTION"
+        }
+      ],
+      "user": {},
+      "conversation": {},
+      "availableSurfaces": []
+    }
+  },
+  "id": "abf382bb-ed9f-47d4-ab7d-37522e969281",
+  "timestamp": "2018-02-25T23:02:20.885Z",
+  "lang": "en-us",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "actions_intent_OPTION",
+    "speech": "",
+    "action": "Dialogflow action name of matched intent",
+    "actionIncomplete": false,
+    "parameters": {},
+    "contexts": [
+      {
+        "name": "actions_intent_option",
+        "parameters": {
+          "OPTION": "second"
+        },
+        "lifespan": 0
+      },
+    ],
+    "metadata": {
+      "intentId": "1777d616-a5f7-4838-a9a9-870f2956bd14",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "nluResponseTime": 2,
+      "intentName": "Dialogflow Intent name of matched intent"
+    },
+    "fulfillment": {
+      "speech": "",
+      "messages": []
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success",
+    "webhookTimedOut": false
+  },
+  "sessionId": "1519599569636"
+}

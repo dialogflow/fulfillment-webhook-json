@@ -1,0 +1,16 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "systemIntent": {
+        "intent": "actions.intent.CONFIRMATION",
+        "data": {
+          "@type": "type.googleapis.com/google.actions.v2.ConfirmationValueSpec",
+          "dialogSpec": {
+            "requestConfirmationText": "Please confirm your order."
+          }
+        }
+      }
+    }
+  }
+}

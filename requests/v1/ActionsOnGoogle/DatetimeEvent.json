@@ -1,0 +1,86 @@
+{
+  "originalRequest": {
+    "source": "google",
+    "version": "2",
+    "data": {
+      "isInSandbox": true,
+      "surface": {},
+      "inputs": [
+        {
+          "rawInputs": [
+            {
+              "query": "April 19th 2018 at 3pm",
+              "inputType": "VOICE"
+            }
+          ],
+          "arguments": [
+            {
+              "datetimeValue": {
+                "date": {
+                  "month": 4,
+                  "year": 2018,
+                  "day": 19
+                },
+                "time": {
+                  "hours": 15
+                }
+              },
+              "name": "DATETIME"
+            }
+          ],
+          "intent": "actions.intent.DATETIME"
+        }
+      ],
+      "user": {},
+      "conversation": {},
+      "availableSurfaces": []
+    }
+  },
+  "id": "11f0fb40-7552-4d05-976e-b8ab8f71debf",
+  "timestamp": "2018-02-25T23:33:57.032Z",
+  "lang": "en-us",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "actions_intent_DATETIME",
+    "speech": "",
+    "action": "Dialogflow action name of matched intent",
+    "actionIncomplete": false,
+    "parameters": {},
+    "contexts": [
+      {
+        "name": "actions_intent_datetime",
+        "parameters": {
+          "DATETIME": {
+            "date": {
+              "month": 4,
+              "year": 2018,
+              "day": 5
+            },
+            "time": {
+              "hours": 15
+            }
+          }
+        },
+        "lifespan": 0
+      }
+    ],
+    "metadata": {
+      "intentId": "1777d616-a5f7-4838-a9a9-870f2956bd14",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "nluResponseTime": 2,
+      "intentName": "Dialogflow intent name of matched intent"
+    },
+    "fulfillment": {
+      "speech": "",
+      "messages": []
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success",
+    "webhookTimedOut": false
+  },
+  "sessionId": "1519601028001"
+}

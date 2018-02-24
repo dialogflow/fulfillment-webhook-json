@@ -1,0 +1,12 @@
+{
+  "platform": "ACTIONS_ON_GOOGLE",
+  "query": "actions_intent_OPTION",
+  "arguments": {
+    "input": {
+      "OPTION": "key of selected item"
+    },
+    "list": [
+      "key of selected item"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "originalRequest": {
+    "source": "google",
+    "version": "2",
+    "data": {
+      "isInSandbox": true,
+      "surface": {},
+      "inputs": [
+        {
+          "rawInputs": [
+            {
+              "query": "cancel",
+              "inputType": "VOICE"
+            }
+          ],
+          "intent": "actions.intent.CANCEL"
+        }
+      ],
+      "user": {},
+      "conversation": {},
+      "availableSurfaces": []
+    }
+  },
+  "id": "7f67f724-8092-43b7-98e9-b6e0181e780b",
+  "timestamp": "2018-02-26T01:33:06.111Z",
+  "lang": "en-us",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "actions_intent_CANCEL",
+    "speech": "",
+    "action": "Dialogflow action name of matched intent",
+    "actionIncomplete": false,
+    "parameters": {},
+    "contexts": [
+      {
+        "name": "actions_intent_cancel",
+        "parameters": {},
+        "lifespan": 0
+      }
+    ],
+    "metadata": {
+      "intentId": "241ecb49-b7d8-424f-a624-d5a878bfd780",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "nluResponseTime": 0,
+      "intentName": "Dialogflow intent name of matched intent"
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success",
+    "webhookTimedOut": false
+  },
+  "sessionId": "1519608783096"
+}

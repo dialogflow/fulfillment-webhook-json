@@ -1,0 +1,21 @@
+{
+  "hosting": {
+    "public": "responses",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "headers": [
+      {
+        "source": "**",
+        "headers": [
+          {
+            "key": "Content-type",
+            "value": "application/json"
+          }
+        ]
+      }
+    ]
+  }
+}
