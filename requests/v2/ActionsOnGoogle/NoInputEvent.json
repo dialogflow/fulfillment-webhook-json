@@ -1,0 +1,56 @@
+{
+  "responseId": "b73b0fe0-450a-4582-954f-2c0e93c8732d",
+  "queryResult": {
+    "queryText": "actions_intent_NO_INPUT",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "",
+    "fulfillmentMessages": [],
+    "outputContexts": [
+      {
+        "name": "projects/${DIALOGFLOW_PROJECT_ID}/agent/sessions/${SESSION_ID}/contexts/actions_intent_no_input",
+        "parameters": {
+          "IS_FINAL_REPROMPT": false,
+          "REPROMPT_COUNT": 1
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/${DIALOGFLOW_PROJECT_ID}/agent/intents/e47be639-a04e-468f-ae79-8b6ea0f34dd4",
+      "displayName": "name of matched Dialogflow intent"
+    },
+    "intentDetectionConfidence": 1,
+    "diagnosticInfo": {},
+    "languageCode": "en-us"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "isInSandbox": true,
+      "surface": {},
+      "inputs": [
+        {
+          "rawInputs": [
+            {}
+          ],
+          "arguments": [
+            {
+              "intValue": "1",
+              "name": "REPROMPT_COUNT"
+            },
+            {
+              "name": "IS_FINAL_REPROMPT",
+              "boolValue": false
+            }
+          ],
+          "intent": "actions.intent.NO_INPUT"
+        }
+      ],
+      "user": {},
+      "conversation": {},
+      "availableSurfaces": []
+    }
+  },
+  "session": "projects/${DIALOGFLOW_PROJECT_ID}/agent/sessions/${SESSION_ID}"
+}

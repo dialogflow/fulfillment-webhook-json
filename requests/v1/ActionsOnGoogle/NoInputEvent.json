@@ -1,0 +1,67 @@
+{
+  "originalRequest": {
+    "source": "google",
+    "version": "2",
+    "data": {
+      "isInSandbox": true,
+      "surface": {},
+      "inputs": [
+        {
+          "rawInputs": [
+            {}
+          ],
+          "arguments": [
+            {
+              "intValue": "1",
+              "name": "REPROMPT_COUNT"
+            },
+            {
+              "name": "IS_FINAL_REPROMPT",
+              "boolValue": false
+            }
+          ],
+          "intent": "actions.intent.NO_INPUT"
+        }
+      ],
+      "user": {},
+      "conversation": {},
+      "availableSurfaces": []
+    }
+  },
+  "id": "4e79a4cc-7c96-45a4-8a2a-ec47935272b1",
+  "timestamp": "2018-03-06T15:30:42.824Z",
+  "lang": "en-us",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "actions_intent_NO_INPUT",
+    "speech": "",
+    "action": "action name of matched Dialogflow intent",
+    "actionIncomplete": false,
+    "parameters": {},
+    "contexts": [
+      {
+        "name": "actions_intent_no_input",
+        "parameters": {
+          "IS_FINAL_REPROMPT": false,
+          "REPROMPT_COUNT": 1
+        },
+        "lifespan": 0
+      }
+    ],
+    "metadata": {
+      "intentId": "e47be639-a04e-468f-ae79-8b6ea0f34dd4",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "nluResponseTime": 1,
+      "intentName": "name of matched Dialogflow intent"
+    },
+    "fulfillment": {},
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success",
+    "webhookTimedOut": false
+  },
+  "sessionId": "1520350216428"
+}
