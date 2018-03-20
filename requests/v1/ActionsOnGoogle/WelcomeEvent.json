@@ -1,0 +1,119 @@
+{
+  "originalRequest": {
+    "source": "google",
+    "version": "2",
+    "data": {
+      "isInSandbox": true,
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.SCREEN_OUTPUT"
+          },
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          },
+          {
+            "name": "actions.capability.WEB_BROWSER"
+          },
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          }
+        ]
+      },
+      "inputs": [
+        {
+          "rawInputs": [
+            {
+              "query": "Talk to my test app",
+              "inputType": "VOICE"
+            }
+          ],
+          "intent": "actions.intent.MAIN"
+        }
+      ],
+      "user": {
+        "lastSeen": "2018-03-20T17:19:06Z",
+        "locale": "en-US",
+        "userId": "ABwppHFwY9xv_T8ml4XB04WZautStl41wYDUC7AkeLc0sBiS8ZZbKdMWmFvG7QFMr_HmZVcGPfxgxnX_DmuF07jJ-24Zmg"
+      },
+      "conversation": {
+        "conversationId": "1521566376128",
+        "type": "NEW"
+      },
+      "availableSurfaces": [
+        {
+          "capabilities": [
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "a3b8e98c-c077-40e3-af6d-c38af82dac50",
+  "timestamp": "2018-03-20T17:19:36.24Z",
+  "lang": "en-us",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "GOOGLE_ASSISTANT_WELCOME",
+    "speech": "",
+    "action": "input.welcome",
+    "actionIncomplete": false,
+    "parameters": {},
+    "contexts": [
+      {
+        "name": "google_assistant_welcome",
+        "parameters": {},
+        "lifespan": 0
+      },
+      {
+        "name": "actions_capability_screen_output",
+        "parameters": {},
+        "lifespan": 0
+      },
+      {
+        "name": "google_assistant_input_type_voice",
+        "parameters": {},
+        "lifespan": 0
+      },
+      {
+        "name": "actions_capability_audio_output",
+        "parameters": {},
+        "lifespan": 0
+      },
+      {
+        "name": "actions_capability_media_response_audio",
+        "parameters": {},
+        "lifespan": 0
+      },
+      {
+        "name": "actions_capability_web_browser",
+        "parameters": {},
+        "lifespan": 0
+      }
+    ],
+    "metadata": {
+      "intentId": "9c482f4c-6fe9-4981-ab57-779c5676656a",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "nluResponseTime": 1,
+      "intentName": "Default Welcome Intent"
+    },
+    "fulfillment": {
+      "speech": "",
+      "messages": []
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success",
+    "webhookTimedOut": false
+  },
+  "sessionId": "1521566376128",
+  "alternativeResultsFromKnowledgeService": {}
+}
