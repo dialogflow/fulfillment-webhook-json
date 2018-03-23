@@ -13,7 +13,7 @@
     ],
     "intent": {
       "name": "projects/${DIALOGFLOW_PROJECT_ID}/agent/intents/1777d616-a5f7-4838-a9a9-870f2956bd14",
-      "displayName": "Dialogflow action name of matched intent"
+      "displayName": "Dialogflow intent name of matched intent"
     },
     "intentDetectionConfidence": 1,
     "diagnosticInfo": {},
