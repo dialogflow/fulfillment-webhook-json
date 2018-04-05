@@ -1,0 +1,121 @@
+{
+  "originalRequest": {
+    "source": "google",
+    "version": "2",
+    "data": {
+      "isInSandbox": true,
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.SCREEN_OUTPUT"
+          },
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          },
+          {
+            "name": "actions.capability.WEB_BROWSER"
+          },
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          }
+        ]
+      },
+      "inputs": [
+        {
+          "rawInputs": [
+            {
+              "query": "query from the user",
+              "inputType": "KEYBOARD"
+            }
+          ],
+          "arguments": [
+            {
+              "rawText": "query from the user",
+              "textValue": "query from the user",
+              "name": "text"
+            }
+          ],
+          "intent": "actions.intent.TEXT"
+        }
+      ],
+      "user": {
+        "lastSeen": "2017-10-06T01:06:56Z",
+        "locale": "en-US",
+        "userId": "AI_yXq-AtrRh3mJX5D-G0MsVhqun"
+      },
+      "conversation": {
+        "conversationId": "1522951193000",
+        "type": "ACTIVE",
+        "conversationToken": "[]"
+      },
+      "availableSurfaces": [
+        {
+          "capabilities": [
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "160738f6-77b5-4a9f-b164-fb74410f8f92",
+  "timestamp": "2018-04-05T18:15:57.307Z",
+  "lang": "en-us",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "query from the user",
+    "speech": "",
+    "action": "action.name.of.matched.dialogflow.intent",
+    "actionIncomplete": false,
+    "parameters": {},
+    "contexts": [
+      {
+        "name": "actions_capability_screen_output",
+        "parameters": {},
+        "lifespan": 0
+      },
+      {
+        "name": "actions_capability_audio_output",
+        "parameters": {},
+        "lifespan": 0
+      },
+      {
+        "name": "google_assistant_input_type_keyboard",
+        "parameters": {},
+        "lifespan": 0
+      },
+      {
+        "name": "actions_capability_web_browser",
+        "parameters": {},
+        "lifespan": 0
+      },
+      {
+        "name": "actions_capability_media_response_audio",
+        "parameters": {},
+        "lifespan": 0
+      }
+    ],
+    "metadata": {
+      "intentId": "1f4e5bd9-a670-4161-a22e-2c97b077f29f",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "nluResponseTime": 333,
+      "intentName": "Name of Dialogflow Intent"
+    },
+    "fulfillment": {
+      "speech": "",
+      "messages": []
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success",
+    "webhookTimedOut": false
+  },
+  "sessionId": "1522951193000"
+}

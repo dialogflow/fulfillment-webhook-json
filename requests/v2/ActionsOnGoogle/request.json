@@ -1,0 +1,97 @@
+{
+  "responseId": "68efa569-4ba1-4b7f-9b1b-ac2865deb539",
+  "queryResult": {
+    "queryText": "query from the user",
+    "action": "action.name.of.matched.dialogflow.intent",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "outputContexts": [
+      {
+        "name": "projects/integrationfulfillmenttest/agent/sessions/1522951193000/contexts/actions_capability_screen_output"
+      },
+      {
+        "name": "projects/integrationfulfillmenttest/agent/sessions/1522951193000/contexts/actions_capability_audio_output"
+      },
+      {
+        "name": "projects/integrationfulfillmenttest/agent/sessions/1522951193000/contexts/google_assistant_input_type_keyboard"
+      },
+      {
+        "name": "projects/integrationfulfillmenttest/agent/sessions/1522951193000/contexts/actions_capability_media_response_audio"
+      },
+      {
+        "name": "projects/integrationfulfillmenttest/agent/sessions/1522951193000/contexts/actions_capability_web_browser"
+      }
+    ],
+    "intent": {
+      "name": "projects/integrationfulfillmenttest/agent/intents/1f4e5bd9-a670-4161-a22e-2c97b077f29f",
+      "displayName": "Name of Dialogflow Intent"
+    },
+    "intentDetectionConfidence": 1,
+    "diagnosticInfo": {},
+    "languageCode": "en-us"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "isInSandbox": true,
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.SCREEN_OUTPUT"
+          },
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          },
+          {
+            "name": "actions.capability.WEB_BROWSER"
+          },
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          }
+        ]
+      },
+      "inputs": [
+        {
+          "rawInputs": [
+            {
+              "query": "query from the user",
+              "inputType": "KEYBOARD"
+            }
+          ],
+          "arguments": [
+            {
+              "rawText": "query from the user",
+              "textValue": "query from the user",
+              "name": "text"
+            }
+          ],
+          "intent": "actions.intent.TEXT"
+        }
+      ],
+      "user": {
+        "lastSeen": "2017-10-06T01:06:56Z",
+        "locale": "en-US",
+        "userId": "AI_yXq-AtrRh3mJX5D-G0MsVhqun"
+      },
+      "conversation": {
+        "conversationId": "1522951193000",
+        "type": "ACTIVE",
+        "conversationToken": "[]"
+      },
+      "availableSurfaces": [
+        {
+          "capabilities": [
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "session": "projects/integrationfulfillmenttest/agent/sessions/1522951193000"
+}
