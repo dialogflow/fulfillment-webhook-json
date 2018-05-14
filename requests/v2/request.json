@@ -22,7 +22,7 @@
         "name": "projects/your-agents-project-id/agent/sessions/88d13aa8-2999-4f71-b233-39cbf3a824a0/contexts/generic",
         "lifespanCount": 5,
         "parameters": {
-          "param": "param value",
+          "param": "param value"
         }
       }
     ],
