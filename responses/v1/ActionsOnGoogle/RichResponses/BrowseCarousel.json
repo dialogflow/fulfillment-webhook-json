@@ -1,0 +1,51 @@
+{
+  "data": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "carouselBrowse": {
+              "items": [
+                {
+                  "title": "Title of item 1",
+                  "openUrlAction": {
+                    "url": "https://google.com"
+                  },
+                  "description": "Description of item 1",
+                  "footer": "Item 1 footer",
+                  "image": {
+                    "url": "https://developers.google.com/actions/assistant.png",
+                    "accessibilityText": "Google Assistant Bubbles"
+                  }
+                },
+                {
+                  "title": "Title of item 2",
+                  "openUrlAction": {
+                    "url": "https://google.com"
+                  },
+                  "description": "Description of item 2",
+                  "footer": "Item 2 footer",
+                  "image": {
+                    "url": "https://developers.google.com/actions/assistant.png",
+                    "accessibilityText": "Google Assistant Bubbles"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "userStorage": "{\"data\":{}}"
+    }
+  },
+  "contextOut": [
+    {
+      "name": "_actions_on_google",
+      "lifespan": 99,
+      "parameters": {
+        "data": "{}"
+      }
+    }
+  ]
+}
