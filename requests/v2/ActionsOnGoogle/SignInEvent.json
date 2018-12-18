@@ -53,7 +53,8 @@
         "lastSeen": "2018-02-26T00:12:10Z",
         "locale": "en-US",
         "userId": "ABwppHEvwoXs18xBNzumk18p5h02bhRDp_riW0kTZKYdxB6-LfP3BJRjgPjHf1xqy1lxqS2uL8Z36gT6JLXSrSCZ",
-        "accessToken": "Your OAuth service access token"
+        "accessToken": "Your OAuth service access token",
+        "idToken": "User token when using Account Linking(Google Sign In for the Assistant)"
       },
       "conversation": {
         "conversationId": "1519604010620",
